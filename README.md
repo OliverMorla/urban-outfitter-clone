@@ -20,16 +20,16 @@ This is a clone of the Urban Outfitter website built using React.js, Redux, HTML
 
 ## Technologies Used
 
-- React.js
-- Redux
-- HTML
-- SCSS
-- JavaScript
-- Strapi CMS
-- Firebase Storage and Authentication
-- Framer Motion
-- Context API
-- Stripe
+- React.js: A JavaScript library for building user interfaces.
+- Redux: A predictable state container for JavaScript apps.
+- HTML: The standard markup language for creating web pages and applications.
+- SCSS: A CSS preprocessor that adds power and elegance to CSS.
+- JavaScript: A high-level programming language for adding interactivity to web pages.
+- Strapi CMS: A headless CMS that provides an easy-to-use interface for managing content.
+- Firebase Storage: A cloud-based storage solution for storing and serving user-generated content.
+- Firebase Authentication: A service that provides user authentication and authorization.
+- Framer Motion: A library for creating smooth and interactive animations in React.
+- Context API: A feature of React that allows for global state management.
 
 ## Getting Started
 
