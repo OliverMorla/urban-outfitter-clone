@@ -3,7 +3,9 @@
 This is a clone of the Urban Outfitter website built using React.js, Redux, HTML, SCSS, JavaScript, Strapi CMS, Firebase storage and authentication, Framer Motion, Redux for cart management, Context API, and Stripe for payment integration.
 
 ![Urban Outfitter Clone]
+
 ![uo-clone1](https://github.com/OliverMorla/urban-outfitter-clone/assets/73266650/612ae3bd-dcf6-4022-8ea6-601b02d41d29)
+
 ![uo-clone2](https://github.com/OliverMorla/urban-outfitter-clone/assets/73266650/4c561a25-8e62-439d-b1d1-26e6eda965f9)
 
 ## Features
