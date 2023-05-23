@@ -1,0 +1,25 @@
+.news-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    .news-title{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        opacity: .4;
+    }
+    .news-post-w{
+        display: flex;
+        justify-content: space-evenly;
+        .news-updates-w{
+            .news-updates-title{
+
+            }
+            .news-u-data-w{}
+        }
+        .news-vip-members-w{
+            .news-vip-members-title{}
+            .news-v-data-w{}
+        }
+    }
+}

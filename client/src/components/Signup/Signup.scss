@@ -1,0 +1,45 @@
+.sign-up-w{
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    right: 01;
+    top: 12vh;
+    padding: 1rem;
+    .sign-up-f{
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: .3rem;
+            font-weight: bold;
+        }
+
+        input {
+            font-size: 1rem;
+            padding: 1rem 2rem;
+            margin-bottom: 1rem;
+            transition: all .15s ease-in-out;
+            border: 1px solid black;
+        }
+
+        #sign-up-btn{
+            cursor: pointer;
+            border: none;
+            appearance: none;
+            color: white;
+            background-color: rgb(32, 32, 32);
+            padding: 1rem 2rem;
+            transition: all .15s ease-in-out;
+
+            &:hover {
+                background-color: rgba(32, 32, 32, 0.582);
+            }
+        }
+    }
+    
+    .login-instead{
+        margin-top: 2rem;
+    }
+}

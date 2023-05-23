@@ -1,0 +1,83 @@
+/* Importing 'Roboto' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Global styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* Setting 'Roboto' font as the default font */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    appearance: none;
+    border: none;
+}
+
+a.active{
+    font-weight: bolder;
+}
+
+/* Setting #root and .wrapper elements to display flex with a column flow and a height of auto */
+#root,
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    height: auto;
+}
+
+/* Media queries for smaller screens */
+@media all and (max-width: 600px) {
+
+    /* Adjusting some styles for the navbar and footer sections */
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .navbar-top {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar-top-left:not(.text) {
+        margin-left: 0;
+    }
+
+    .navbar-top-right:not(.text) {
+        margin-right: 0;
+    }
+
+    .navbar-bottom {
+        flex-direction: column;
+    }
+
+    .footer-wrapper .footer-btn-wrapper,
+    .footer-wrapper .btn-info-wrapper {
+        width: fit-content;
+    }
+
+    .footer-btn-wrapper {
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+@media all and (max-width: 900px) {
+
+    /* Adjusting some styles for the footer section */
+    .footer-wrapper .footer-menu-right-w {
+        display: flex;
+        flex-direction: column;
+    }
+}

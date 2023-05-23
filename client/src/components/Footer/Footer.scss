@@ -1,0 +1,190 @@
+.footer-wrapper {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+
+    .footer-btn-wrapper {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .btn-info-wrapper {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        max-width: 475px;
+        width: 30%;
+        gap: .4rem;
+        border: 1px solid black;
+        border-radius: .5rem;
+        padding: 1rem 3rem;
+        transition: box-shadow .15s ease-in-out;
+
+        &:hover {
+            box-shadow: 0 0 4px 0#28282B;
+        }
+
+        #btn-info {
+            font-size: 1.2rem;
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+
+
+    .footer-about-wrapper {
+        border-top: 2px solid rgb(160, 160, 160);
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-flow: column;
+
+        .footer-about-title {
+            font-size: 1.5rem;
+        }
+
+        .footer-about-p {
+            max-height: 1rem;
+            overflow: hidden;
+        }
+
+        .see-more-btn {
+            display: flex;
+            align-self: flex-start;
+            margin: 1rem;
+            border: none;
+            appearance: none;
+            width: fit-content;
+        }
+
+        .see-more-btn::before {
+            content: "See more";
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .footer-menu-top,
+    .footer-menu-bottom {
+        background-color: rgb(237, 237, 237);
+        border-top: 2px solid rgb(219, 219, 219);
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        font-size: .75rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .footer-menu-top {
+        gap: 2rem;
+        height: auto;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        font-size: .75rem;
+    }
+
+    .footer-menu-right-w {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .footer-menu-right {
+            display: flex;
+            flex-flow: column;
+        }
+    }
+
+    .footer-menu-text {
+        font-size: 1.2rem;
+    }
+
+    .footer-textbox-wrapper {
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+    }
+
+    .email-textbox {
+        font-size: 2vw;
+        flex-grow: 1;
+        max-width: 300px;
+        margin-right: 1rem;
+        height: 52px;
+    }
+
+    #email-sub-btn {
+        background-color: #28282B;
+        color: white;
+        font-weight: bolder;
+        padding: 1rem 2rem;
+    }
+
+    .footer-bottom-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .help-section,
+    .quick-section,
+    .extras-section,
+    .selector-section {
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+    }
+
+    .help-section span,
+    .quick-section span,
+    .extras-section span {
+        font-weight: bold;
+    }
+
+    .uo-logo {
+        width: 2vw;
+    }
+
+    .f-social-icon {
+        width: 2vw;
+    }
+
+    .f-download-icon {
+        width: 6vw;
+    }
+
+    .footer-socials {
+        background-color: rgb(237, 237, 237);
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .footer-copyright-wrapper {
+        background-color: rgb(237, 237, 237);
+        padding-top: 2rem;
+        font-size: .75rem;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .footer-copyright.left,
+        .footer-copyright.right {
+            display: flex;
+        }
+
+        .footer-copyright.left {
+            gap: 1rem;
+        }
+    }
+}

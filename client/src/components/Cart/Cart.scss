@@ -1,0 +1,90 @@
+/* 
+Styles for the Cart component.
+The styles are defined using SCSS and nested selectors to improve readability.
+*/
+
+.cart-wrapper {
+    /* Styles for the cart wrapper container */
+    z-index: 4;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0 rgb(148, 148, 148);
+    right: 4vh;
+    top: 12vh;
+    padding: 1rem;
+    transition: all 2s ease-in-out;
+
+    .cart-title {
+        /* Styles for the cart title */
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .cart-item-w {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+
+        .cart-product-w {
+            /* Styles for the product wrapper container */
+            display: flex;
+            gap: 1rem;
+
+            .cart-p-img {
+                /* Styles for the product image */
+                width: 100px;
+            }
+
+            .cart-p-right-w {
+                /* Styles for the product right wrapper container */
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: .5rem;
+                width: 100%;
+
+                .cart-p-name {
+                    /* Styles for the product name */
+                    font-weight: bold;
+                }
+
+                .cart-p-price {
+                    /* Styles for the product price */
+                    font-size: .8rem;
+                }
+
+                .cart-p-color {
+                    /* Styles for the product color */
+                }
+
+                .cart-p-size {
+                    /* Styles for the product size */
+                }
+
+                .cart-trash-icon {
+                    /* Styles for the trash icon */
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #cart-checkout-btn {
+        /* Styles for the checkout button */
+        cursor: pointer;
+        border: none;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        font-weight: bolder;
+        padding: 1rem;
+        transition: all .25s;
+    }
+
+    #cart-checkout-btn:hover {
+        /* Styles for the checkout button on hover */
+        background-color: rgb(15, 15, 15);
+    }
+}
